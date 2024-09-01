@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Expandly | Website</title>
+</head>
+<body> 
+    <header>
+        <a href="Index.html" class="logo">Expandly</a>
+        
+        <ul class="navbar">
+            <li><a href="#Hero_section">Home</a></li>
+            <li><a href="#Company_section">Company</a></li>
+            <li><a href="#Service_section">Services</a></li>
+            <li><a href="#Contact_section">Contact</a></li>
+        </ul>
+        
+        <div class="nav-btn">
+            <a href="#" class="btn" id="openModalBtn">Contact Us</a>
+            <div class="bx bx-menu" id="MenuIcon"><i class="ri-menu-3-line"></i></div>
+        </div>
+    </header>
+
+<section class="Hero" id="Hero_section">
+    <div class="Hero_container">
+        <h1>All-In-One Platform</h1>
+        <h3>Don't Place Limitation On Your Success</h3>
+        <p>Expandly is an one-stop platform where entrepreneurs can keep a flow of building and developing a successful business.</p>
+    </div>
+</section> 
+
+<section class="Ad_Text" id="Company_section">
+    <h1>We are arhitects of digital dreams weaving a tapestry of ideas that transcends the conventional.</h1>
+</section>
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Contact Our Team</h2>
+      <p>Got any questions about our services or scaling of your business?Leave your details with us we will chat within 24hrs.</p>
+      <form id="contactForm" method="post" action="./Admin/AccessDashBoard.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Doe Smith">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="your@gmail.com">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Explain what you looking for us to development..."></textarea>
+
+        <label for="services">Services</label>
+        <select id="services" name="services">
+          <option value="Web Development">Web Development</option>
+          <option value="Web/UX Design">Web Design</option>
+          <option value="Consulation">Consulation</option>
+        </select>
+        <br>
+        
+        <button type="submit" value="submit">Send Message</button>
+        <SPAN id="AlertModal" style="color: red; margin-top: 12px;"></SPAN>
+      </form>
+    </div>
+</div>
+
+<section class="Web_Section" id="Service_section">
+    <div class="container">
+      <div class="section-title">
+          <h2>What We Serve</h2>
+          <p>For Your Business</p>
+      </div>
+      <div class="service-cards">
+          <div class="card">
+              <div class="card-icon"><i class="ri-palette-fill"></i></div>
+              <div class="card-title">UI/UX Design</div>
+              <div class="card-description">We have a specialised team of UI/UX designers which can create and design a unquie business website.</div>
+              <a href="#" class="card-link">Learn more</a>
+          </div>
+          <div class="card blue-card">
+              <div class="card-icon"><i class="ri-lock-password-fill"></i></div>
+              <div class="card-title">Security</div>
+              <div class="card-description">Product identity is needed to be protected and with that Expandly third parties hosting have alot of security benefits.</div>
+              <a href="https://www.hostinger.com/1" class="card-link">Learn more</a>
+          </div>
+          <div class="card">
+              <div class="card-icon"><i class="ri-device-fill"></i></div>
+              <div class="card-title">Responsive Development</div>
+              <div class="card-description">We build scalable and responsive to mobile users to sell your products online without limitation.</div>
+              <a href="#" class="card-link">Learn more</a>
+          </div>
+          <div class="card">
+              <div class="card-icon"><i class="ri-terminal-box-fill"></i></div>
+              <div class="card-title">Tools</div>
+              <div class="card-description">Expandly uses the lastest and efficient technologies to meet desired performance and best user experience.</div>
+              <a href="#" class="card-link">Learn more</a>
+          </div>
+          <div class="card">
+              <div class="card-icon"><i class="ri-question-answer-line"></i></div>
+              <div class="card-title">24/7 Chat</div>
+              <div class="card-description">Expandly has a wide range of communcations line in order to communcate with our client efficient.</div>
+              <a href="#" class="card-link">Learn more</a>
+          </div>
+          <div class="card">
+              <div class="card-icon"><i class="ri-shake-hands-fill"></i></div>
+              <div class="card-title">Hosting</div>
+              <div class="card-description">Expandly invited established businesses which provides secure and afforable plans that maintain and place your websites on the internet.</div>
+              <a href="https://www.hostinger.com/1" class="card-link">Learn more</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="Devlopment_section">
+    <h1>Strategic Digital Steps</h1>
+    <p>From Expandly interfaces to user user-friendly <br>websites,out team of experts delivers functional.</p>
+  <div class="accordion">
+    <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+            <span class="accordion-title">01. Mobile & Web Design</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+            <p>Expandly Team designs not only look stunning but also function seamlessly across devices, delivering a consistent and enjoyable experience./p>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+            <span class="accordion-title">02. Website Development</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+            <p>Our development team specializes in bringing designs to life with precision and performance.</p>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+            <span class="accordion-title">03. Branding</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+            <p>We create brand idetities such as Logo designs and marketing structure for the seamless integration to your business.</p>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <button class="accordion-header" aria-expanded="false">
+            <span class="accordion-title">04. SEO Optimization</span>
+            <span class="accordion-icon" aria-hidden="true"></span>
+        </button>
+        <div class="accordion-content">
+            <p>We create brand idetities such as Logo designs and marketing structure for the seamless integration to your business.</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<br>
+
+<section class="hire_section" id="Contact_section">
+    <div class="hire_content">
+        <h2>CREATIVE TWIST</h2>
+        <p>Don't wait any longer,let's build a website you can be proud of together!</p>
+        <br>
+        <span>
+            Contact Numbers: 066 032 1669
+            <br>
+            Email: alginquinton@gmail.com
+            <br>
+            IG: @expandlyworks
+        </span>
+    </div>
+</section>
+
+<br>
+
+<footer>
+    <h1>Creativity</h1>
+    <div class="bottom_footer">
+        <span>Expandly</span>
+        <p>&copy; 2023 Expandly. All rights reserved.</p>
+        <ul>
+            <a href="#">Mail</a>
+            <a href="#">Instagram</a>
+            <a href="#">Whatapps</a>
+        </ul>
+    </div>
+</footer>
+
+<script src="./Main.js"></script>
+</body>
+</html>
